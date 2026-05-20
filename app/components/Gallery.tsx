@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Gallery() {
   const galleryItems = [
     {
@@ -73,9 +75,10 @@ export default function Gallery() {
         {/* Gallery Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 auto-rows-[180px] md:auto-rows-[200px]">
           {galleryItems.map((item, index) => (
-            <div
+            <Link
+              href="/daftar"
               key={index}
-              className={`${item.size} group relative bg-gradient-to-br ${item.color} rounded-3xl overflow-hidden cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}
+              className={`${item.size} group relative bg-gradient-to-br ${item.color} rounded-3xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block`}
             >
               {/* Content */}
               <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
@@ -92,7 +95,7 @@ export default function Gallery() {
 
               {/* Hover overlay */}
               <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
+            </Link>
           ))}
         </div>
       </div>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Programs() {
   const materials = [
     {
@@ -87,9 +89,10 @@ export default function Programs() {
         {/* Materials Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {materials.map((material, index) => (
-            <div
+            <Link
+              href="/daftar"
               key={index}
-              className="group relative bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-transparent hover:border-pink-light/50 overflow-hidden"
+              className="group relative bg-white rounded-3xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-transparent hover:border-pink-light/50 overflow-hidden block"
             >
               {/* Background gradient on hover */}
               <div
@@ -124,7 +127,7 @@ export default function Programs() {
                   </span>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
