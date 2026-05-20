@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-b from-warm-white to-beige-light py-16 relative overflow-hidden">
@@ -8,21 +10,25 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-10 md:gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">✨</span>
+            <div className="flex items-center gap-3 mb-4">
+              <Image
+                src="/logo.png"
+                alt="GLOW"
+                width={40}
+                height={40}
+                className="rounded-full"
+              />
               <span
                 className="text-2xl font-extrabold tracking-tight"
                 style={{ fontFamily: "var(--font-baloo)" }}
               >
-                <span className="text-pink-dark">G</span>
-                <span className="text-gold">L</span>
-                <span className="text-pastel-blue">O</span>
-                <span className="text-pastel-green">W</span>
+                <span className="text-pink-dark">GLOW</span>
               </span>
             </div>
             <p className="text-foreground/60 max-w-sm leading-relaxed mb-6">
-              Helping kids in grades 1–4 master English through play, stories,
-              and simple steps. Making learning an adventure, one word at a time.
+              Growing Language Opportunities Worldwide. Helping kids in grades
+              1–4 master English through fun presentations, videos, and simple
+              steps.
             </p>
             {/* Social */}
             <div className="flex items-center gap-4">
@@ -53,7 +59,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#about"
+                  href="/#about"
                   className="text-foreground/60 hover:text-pink-dark transition-colors"
                 >
                   About Us
@@ -61,15 +67,15 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#programs"
+                  href="/#programs"
                   className="text-foreground/60 hover:text-pink-dark transition-colors"
                 >
-                  Programs
+                  Materials
                 </a>
               </li>
               <li>
                 <a
-                  href="#how-it-works"
+                  href="/#how-it-works"
                   className="text-foreground/60 hover:text-pink-dark transition-colors"
                 >
                   How It Works
@@ -77,7 +83,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#testimonials"
+                  href="/#testimonials"
                   className="text-foreground/60 hover:text-pink-dark transition-colors"
                 >
                   Testimonials

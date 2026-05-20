@@ -2,39 +2,39 @@ export default function About() {
   const features = [
     {
       emoji: "📊",
-      title: "Presentasi Menarik",
+      title: "Engaging Presentations",
       description:
-        "Materi dalam format PPT yang colorful dan mudah dipahami anak — belajar terasa seperti menonton cerita.",
+        "Colorful, easy-to-understand PPT materials — learning feels like watching a fun story unfold.",
     },
     {
       emoji: "🔤",
-      title: "Kosakata Lengkap",
+      title: "Complete Vocabulary",
       description:
-        "Kumpulan vocabulary bertema yang disusun rapi — dari kata sehari-hari sampai kosakata sekolah.",
+        "Themed vocabulary collections neatly organized — from everyday words to school-related terms.",
     },
     {
       emoji: "📐",
-      title: "Grammar Sederhana",
+      title: "Simple Grammar",
       description:
-        "Penjelasan grammar dasar yang simpel dan fun, cocok untuk anak kelas 1–4 SD yang baru mulai belajar.",
+        "Basic grammar explanations that are simple and fun, perfect for grades 1–4 beginners.",
     },
     {
       emoji: "🎬",
-      title: "Video Pronunciation",
+      title: "Pronunciation Videos",
       description:
-        "Video panduan cara mengucapkan kata-kata bahasa Inggris dengan benar — anak bisa tiru dan latihan sendiri.",
+        "Video guides on how to pronounce English words correctly — kids can watch, repeat, and practice on their own.",
     },
     {
       emoji: "📱",
-      title: "Akses Kapan Saja",
+      title: "Access Anytime",
       description:
-        "Semua materi tersimpan di Google Drive — bisa diakses dari HP, tablet, atau laptop kapan pun dibutuhkan.",
+        "All materials are stored in Google Drive — accessible from phone, tablet, or laptop whenever needed.",
     },
     {
       emoji: "🆓",
-      title: "100% Gratis",
+      title: "100% Free",
       description:
-        "Cukup daftar dengan email, link materi langsung dikirim otomatis. Tanpa biaya, tanpa syarat rumit.",
+        "Just sign up with your email and the materials are sent automatically. No cost, no complicated requirements.",
     },
   ];
 
@@ -48,7 +48,7 @@ export default function About() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block text-sm font-semibold text-pink-dark bg-pink-light px-4 py-1.5 rounded-full mb-4">
-            Kenapa GLOW?
+            Why GLOW?
           </span>
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-4"
@@ -60,8 +60,8 @@ export default function About() {
             </span>
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Materi yang dirancang khusus agar anak-anak excited belajar bahasa
-            Inggris — lewat presentasi seru dan video yang mudah diikuti.
+            Materials designed to make children excited about learning English
+            every day — through fun presentations and easy-to-follow videos.
           </p>
         </div>
 

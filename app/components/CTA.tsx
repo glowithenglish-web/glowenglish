@@ -33,18 +33,16 @@ export default function CTA() {
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-6 leading-tight"
             style={{ fontFamily: "var(--font-baloo)" }}
           >
-            Siap Mulai{" "}
+            Ready to Start Your Child&apos;s{" "}
             <span className="bg-gradient-to-r from-pink-dark via-gold to-pastel-blue bg-clip-text text-transparent">
-              Petualangan Belajar
+              English Adventure?
             </span>
-            <br />
-            Bahasa Inggris?
           </h2>
 
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto mb-10 leading-relaxed">
-            Daftar gratis sekarang dan langsung dapatkan akses ke semua materi
-            belajar bahasa Inggris yang seru untuk anak kelas 1–4 SD. Materi
-            dikirim otomatis ke email kamu!
+            Sign up for free now and get instant access to all English learning
+            materials for grades 1–4. Materials are sent automatically to your
+            email!
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -52,7 +50,7 @@ export default function CTA() {
               href="/daftar"
               className="group bg-pink-dark text-white font-bold px-10 py-5 rounded-full hover:bg-foreground transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1 text-lg"
             >
-              Daftar & Dapatkan Materi Gratis
+              Sign Up & Get Free Materials
               <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">
                 →
               </span>
@@ -62,14 +60,13 @@ export default function CTA() {
           {/* Trust badges */}
           <div className="mt-10 flex flex-wrap items-center justify-center gap-6 text-sm text-foreground/50">
             <span className="flex items-center gap-2">
-              <span className="text-lg">🆓</span> 100% Gratis
+              <span className="text-lg">🆓</span> 100% Free
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-lg">⚡</span> Materi langsung dikirim
+              <span className="text-lg">⚡</span> Instant delivery
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-lg">💝</span> 500+ keluarga sudah
-              bergabung
+              <span className="text-lg">💝</span> 500+ families joined
             </span>
           </div>
         </div>

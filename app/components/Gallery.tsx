@@ -2,43 +2,43 @@ export default function Gallery() {
   const galleryItems = [
     {
       emoji: "📊",
-      title: "PPT Vocabulary",
-      description: "Presentasi kosakata bertema dengan gambar menarik",
+      title: "Vocabulary PPT",
+      description: "Themed presentations with engaging visuals",
       color: "from-pink-light to-pink/30",
       size: "col-span-2 row-span-2",
     },
     {
       emoji: "📐",
-      title: "PPT Grammar",
-      description: "Penjelasan grammar visual & simpel",
+      title: "Grammar PPT",
+      description: "Simple & visual grammar explanations",
       color: "from-gold-light to-gold/30",
       size: "col-span-1 row-span-1",
     },
     {
       emoji: "🎬",
-      title: "Video Pronunciation",
-      description: "Cara ucap kata yang benar",
+      title: "Pronunciation Videos",
+      description: "Learn correct pronunciation",
       color: "from-pastel-blue to-pastel-blue/30",
       size: "col-span-1 row-span-1",
     },
     {
       emoji: "🗣️",
-      title: "Video Daily Words",
-      description: "Kosakata harian + pengucapan",
+      title: "Daily Words Videos",
+      description: "Everyday vocabulary + pronunciation",
       color: "from-pastel-green to-pastel-green/30",
       size: "col-span-1 row-span-1",
     },
     {
       emoji: "🎯",
-      title: "PPT Quiz",
-      description: "Latihan interaktif seru",
+      title: "Quiz PPT",
+      description: "Fun interactive exercises",
       color: "from-pastel-purple to-pastel-purple/30",
       size: "col-span-1 row-span-1",
     },
     {
       emoji: "📂",
       title: "Google Drive",
-      description: "Semua materi rapi dalam satu folder, akses kapan saja",
+      description: "All materials organized in one folder, access anytime",
       color: "from-beige to-gold-light/30",
       size: "col-span-2 row-span-1",
     },
@@ -53,7 +53,7 @@ export default function Gallery() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block text-sm font-semibold text-pastel-purple bg-pastel-purple/20 px-4 py-1.5 rounded-full mb-4">
-            Preview Materi
+            Preview
           </span>
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-4"
@@ -61,12 +61,12 @@ export default function Gallery() {
           >
             Sneak Peek{" "}
             <span className="bg-gradient-to-r from-pastel-purple to-pink-dark bg-clip-text text-transparent">
-              Isi Drive
+              Inside the Drive
             </span>
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Ini gambaran materi yang akan kamu dapatkan — PPT dan video lengkap
-            dalam satu Google Drive.
+            Here&apos;s a glimpse of the materials you&apos;ll get — PPTs and
+            videos all in one Google Drive.
           </p>
         </div>
 

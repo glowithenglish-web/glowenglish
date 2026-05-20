@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -27,15 +28,18 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-3xl">✨</span>
+            <Image
+              src="/logo.png"
+              alt="GLOW - Growing Language Opportunities Worldwide"
+              width={44}
+              height={44}
+              className="rounded-full"
+            />
             <span
-              className="text-2xl font-extrabold tracking-tight"
+              className="text-2xl font-extrabold tracking-tight hidden sm:inline"
               style={{ fontFamily: "var(--font-baloo)" }}
             >
-              <span className="text-pink-dark">G</span>
-              <span className="text-gold">L</span>
-              <span className="text-pastel-blue">O</span>
-              <span className="text-pastel-green">W</span>
+              <span className="text-pink-dark">GLOW</span>
             </span>
           </Link>
 
@@ -51,13 +55,13 @@ export default function Navbar() {
               href="/#programs"
               className="text-foreground/70 hover:text-pink-dark transition-colors font-medium"
             >
-              Materi
+              Materials
             </a>
             <a
               href="/#how-it-works"
               className="text-foreground/70 hover:text-pink-dark transition-colors font-medium"
             >
-              Cara Kerja
+              How It Works
             </a>
             <a
               href="/#gallery"
@@ -69,13 +73,13 @@ export default function Navbar() {
               href="/#testimonials"
               className="text-foreground/70 hover:text-pink-dark transition-colors font-medium"
             >
-              Testimoni
+              Testimonials
             </a>
             <Link
               href="/daftar"
               className="bg-pink text-foreground font-semibold px-6 py-2.5 rounded-full hover:bg-pink-dark hover:text-white transition-all duration-300 shadow-sm hover:shadow-md"
             >
-              Daftar Gratis
+              Sign Up Free
             </Link>
           </div>
 
@@ -126,14 +130,14 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-foreground/70 hover:text-pink-dark transition-colors font-medium py-2"
               >
-                Materi
+                Materials
               </a>
               <a
                 href="/#how-it-works"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-foreground/70 hover:text-pink-dark transition-colors font-medium py-2"
               >
-                Cara Kerja
+                How It Works
               </a>
               <a
                 href="/#gallery"
@@ -147,14 +151,14 @@ export default function Navbar() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-foreground/70 hover:text-pink-dark transition-colors font-medium py-2"
               >
-                Testimoni
+                Testimonials
               </a>
               <Link
                 href="/daftar"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="bg-pink text-foreground font-semibold px-6 py-2.5 rounded-full hover:bg-pink-dark hover:text-white transition-all duration-300 text-center mt-2"
               >
-                Daftar Gratis
+                Sign Up Free
               </Link>
             </div>
           </div>

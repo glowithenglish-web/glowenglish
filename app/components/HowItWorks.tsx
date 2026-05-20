@@ -3,27 +3,27 @@ export default function HowItWorks() {
     {
       number: "01",
       emoji: "📝",
-      title: "Daftar dengan Email",
+      title: "Sign Up with Email",
       description:
-        "Masukkan email kamu di halaman pendaftaran. Prosesnya cuma 10 detik — tanpa biaya, tanpa ribet.",
+        "Enter your email on the registration page. It only takes 10 seconds — no cost, no hassle.",
       color: "bg-pink-light",
       borderColor: "border-pink",
     },
     {
       number: "02",
       emoji: "📩",
-      title: "Cek Email Kamu",
+      title: "Check Your Email",
       description:
-        "Dalam hitungan menit, kamu akan menerima email otomatis berisi link Google Drive yang sudah disiapkan.",
+        "Within minutes, you'll receive an automated email with a Google Drive link containing all the prepared learning materials.",
       color: "bg-gold-light",
       borderColor: "border-gold",
     },
     {
       number: "03",
       emoji: "🎉",
-      title: "Akses Semua Materi",
+      title: "Access All Materials",
       description:
-        "Buka Drive-nya, pilih materi yang mau dipelajari — PPT kosakata, PPT grammar, atau video pronunciation. Semuanya ada!",
+        "Open the Drive, choose what to study — vocabulary PPT, grammar PPT, or pronunciation videos. It's all there!",
       color: "bg-pastel-green",
       borderColor: "border-pastel-green",
     },
@@ -39,20 +39,20 @@ export default function HowItWorks() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block text-sm font-semibold text-pastel-green bg-pastel-green/30 px-4 py-1.5 rounded-full mb-4">
-            Cara Mendapatkan Materi
+            How to Get Materials
           </span>
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-4"
             style={{ fontFamily: "var(--font-baloo)" }}
           >
-            Semudah{" "}
+            As Easy as{" "}
             <span className="bg-gradient-to-r from-pastel-green to-gold bg-clip-text text-transparent">
               1-2-3
             </span>
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Tidak perlu proses ribet. Daftar sekarang, link materi langsung
-            sampai di inbox kamu.
+            No complicated process. Sign up now and the materials link will land
+            in your inbox right away.
           </p>
         </div>
 

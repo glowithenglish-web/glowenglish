@@ -41,7 +41,7 @@ export default function Hero() {
             <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm px-4 py-2 rounded-full mb-6 shadow-sm">
               <span className="text-sm">🎉</span>
               <span className="text-sm font-medium text-foreground/70">
-                Gratis untuk Kelas 1–4 SD
+                Free for Grades 1–4
               </span>
             </div>
 
@@ -58,9 +58,9 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg sm:text-xl text-foreground/70 mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-              Daftar gratis dan langsung dapatkan akses ke materi belajar bahasa
-              Inggris lengkap — presentasi kosakata & grammar, plus video cara
-              pronunciation yang benar.
+              Sign up for free and get instant access to complete English
+              learning materials — vocabulary & grammar presentations, plus
+              pronunciation videos.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -68,7 +68,7 @@ export default function Hero() {
                 href="/daftar"
                 className="group bg-pink-dark text-white font-bold px-8 py-4 rounded-full hover:bg-pink hover:text-foreground transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 text-center"
               >
-                Daftar & Dapatkan Materi
+                Sign Up & Get Materials
                 <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">
                   →
                 </span>
@@ -77,7 +77,7 @@ export default function Hero() {
                 href="#programs"
                 className="bg-white/80 backdrop-blur-sm text-foreground font-bold px-8 py-4 rounded-full hover:bg-white transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5 border border-pink-light text-center"
               >
-                Lihat Isi Materi ✨
+                See What You Get ✨
               </a>
             </div>
 
@@ -95,8 +95,8 @@ export default function Hero() {
                 </div>
               </div>
               <p className="text-sm text-foreground/60">
-                <span className="font-bold text-foreground">500+</span> orang
-                tua sudah bergabung
+                <span className="font-bold text-foreground">500+</span> parents
+                already joined
               </p>
             </div>
           </div>
@@ -115,7 +115,7 @@ export default function Hero() {
                     <span className="text-3xl animate-float">📖</span>
                   </div>
                   <p className="text-xs font-bold text-foreground/50 mt-2">
-                    PPT + Video Pronunciation
+                    PPT + Pronunciation Videos
                   </p>
                 </div>
               </div>
@@ -123,11 +123,11 @@ export default function Hero() {
               {/* Floating cards around illustration */}
               <div className="absolute -top-4 -right-4 bg-white rounded-2xl p-3 shadow-lg animate-float">
                 <span className="text-2xl">📩</span>
-                <p className="text-xs font-bold mt-1">Materi Terkirim!</p>
+                <p className="text-xs font-bold mt-1">Materials Sent!</p>
               </div>
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl p-3 shadow-lg animate-float-slow">
                 <span className="text-2xl">📂</span>
-                <p className="text-xs font-bold mt-1">Akses Drive</p>
+                <p className="text-xs font-bold mt-1">Drive Access</p>
               </div>
               <div className="absolute top-1/2 -right-8 bg-gold-light rounded-2xl p-3 shadow-lg animate-bounce-gentle">
                 <span className="text-xl">💡</span>

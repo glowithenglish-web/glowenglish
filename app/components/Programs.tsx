@@ -2,49 +2,49 @@ export default function Programs() {
   const materials = [
     {
       icon: "🔤",
-      title: "PPT Kosakata",
+      title: "Vocabulary PPT",
       description:
-        "Presentasi kosakata bertema yang menarik — animals, colors, food, family, school, body parts, dan banyak lagi. Setiap slide dilengkapi gambar dan contoh kalimat.",
+        "Themed vocabulary presentations — animals, colors, food, family, school, body parts, and more. Each slide includes images and example sentences.",
       color: "from-pink-light to-pink",
-      badge: "Favorit",
+      badge: "Popular",
     },
     {
       icon: "📐",
-      title: "PPT Grammar Dasar",
+      title: "Basic Grammar PPT",
       description:
-        "Penjelasan grammar yang simpel dan visual — mulai dari singular/plural, simple present tense, pronouns, sampai prepositions. Cocok untuk pemula.",
+        "Simple, visual grammar explanations — from singular/plural, simple present tense, pronouns, to prepositions. Perfect for beginners.",
       color: "from-pastel-blue to-pastel-blue/50",
-      badge: "Penting",
+      badge: "Essential",
     },
     {
       icon: "🎬",
-      title: "Video Pronunciation A–Z",
+      title: "Pronunciation Videos A–Z",
       description:
-        "Video panduan cara mengucapkan huruf, kata, dan kalimat bahasa Inggris dengan benar. Anak bisa pause, tiru, dan latihan berulang kali.",
+        "Video guides on how to pronounce letters, words, and sentences correctly. Kids can pause, repeat, and practice as many times as they want.",
       color: "from-gold-light to-gold",
       badge: "Video",
     },
     {
       icon: "🗣️",
-      title: "Video Kosakata Harian",
+      title: "Daily Vocabulary Videos",
       description:
-        "Video pendek berisi kata-kata yang sering dipakai sehari-hari — greetings, numbers, days, months. Lengkap dengan cara pengucapan yang benar.",
+        "Short videos featuring commonly used words — greetings, numbers, days, months. Complete with correct pronunciation guides.",
       color: "from-pastel-green to-pastel-green/50",
       badge: "Video",
     },
     {
       icon: "📊",
-      title: "PPT Kalimat Sederhana",
+      title: "Simple Sentences PPT",
       description:
-        "Presentasi cara menyusun kalimat sederhana dalam bahasa Inggris — dari perkenalan diri sampai menceritakan aktivitas sehari-hari.",
+        "Presentations on how to build simple English sentences — from self-introduction to describing daily activities.",
       color: "from-pastel-purple to-pastel-purple/50",
       badge: null,
     },
     {
       icon: "🎯",
-      title: "PPT Quiz & Latihan",
+      title: "Quiz & Practice PPT",
       description:
-        "Slide-slide latihan interaktif yang bisa dikerjakan anak sendiri atau bersama orang tua — fill in the blank, matching, dan pilihan ganda.",
+        "Interactive practice slides that kids can work on alone or with parents — fill in the blank, matching, and multiple choice.",
       color: "from-gold-light to-pink-light",
       badge: null,
     },
@@ -67,20 +67,20 @@ export default function Programs() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block text-sm font-semibold text-gold bg-gold-light px-4 py-1.5 rounded-full mb-4">
-            Isi Materi
+            What You Get
           </span>
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-4"
             style={{ fontFamily: "var(--font-baloo)" }}
           >
-            Apa Saja yang{" "}
+            Everything{" "}
             <span className="bg-gradient-to-r from-gold to-pink-dark bg-clip-text text-transparent">
-              Kamu Dapat?
+              Inside the Drive
             </span>
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Semua materi ini tersedia di Google Drive setelah kamu mendaftar —
-            tinggal buka, pelajari, dan praktekkan bersama anak.
+            All these materials are available in Google Drive after you sign up —
+            just open, learn, and practice together with your child.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ export default function Programs() {
 
                 {/* CTA hint */}
                 <div className="mt-4 flex items-center gap-1 text-pink-dark font-semibold text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <span>Daftar untuk akses</span>
+                  <span>Sign up to access</span>
                   <span className="group-hover:translate-x-1 transition-transform">
                     →
                   </span>

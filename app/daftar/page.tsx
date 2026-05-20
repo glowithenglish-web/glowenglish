@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import RegisterForm from "./RegisterForm";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Daftar Gratis - GLOW English",
+  title: "Sign Up Free - GLOW English",
   description:
-    "Daftar gratis dan dapatkan materi belajar bahasa Inggris untuk anak kelas 1-4 SD langsung ke email kamu. PPT kosakata, grammar, dan video pronunciation.",
+    "Sign up for free and get English learning materials for grades 1-4 sent directly to your email. Vocabulary PPT, grammar PPT, and pronunciation videos.",
 };
 
 export default function DaftarPage() {
@@ -45,17 +46,18 @@ export default function DaftarPage() {
         <header className="py-6 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
             <Link href="/" className="flex items-center gap-2 group">
-              <span className="text-2xl group-hover:rotate-12 transition-transform">
-                ✨
-              </span>
+              <Image
+                src="/logo.png"
+                alt="GLOW"
+                width={36}
+                height={36}
+                className="rounded-full group-hover:scale-110 transition-transform"
+              />
               <span
                 className="text-2xl font-extrabold tracking-tight"
                 style={{ fontFamily: "var(--font-baloo)" }}
               >
-                <span className="text-pink-dark">G</span>
-                <span className="text-gold">L</span>
-                <span className="text-pastel-blue">O</span>
-                <span className="text-pastel-green">W</span>
+                <span className="text-pink-dark">GLOW</span>
               </span>
             </Link>
             <Link
@@ -75,7 +77,7 @@ export default function DaftarPage() {
                   d="M15 19l-7-7 7-7"
                 />
               </svg>
-              Kembali ke Beranda
+              Back to Home
             </Link>
           </div>
         </header>
@@ -88,7 +90,7 @@ export default function DaftarPage() {
               <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm px-4 py-2 rounded-full mb-6 shadow-sm">
                 <span className="text-sm">🎁</span>
                 <span className="text-sm font-medium text-foreground/70">
-                  100% Gratis, tanpa biaya apapun
+                  100% Free, no cost at all
                 </span>
               </div>
 
@@ -96,22 +98,22 @@ export default function DaftarPage() {
                 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight mb-6"
                 style={{ fontFamily: "var(--font-baloo)" }}
               >
-                <span className="text-foreground">Daftar &</span>
+                <span className="text-foreground">Sign Up &</span>
                 <br />
                 <span className="bg-gradient-to-r from-pink-dark via-gold to-pastel-blue bg-clip-text text-transparent">
-                  Langsung Dapat Materi
+                  Get Instant Access
                 </span>
               </h1>
 
               <p className="text-lg text-foreground/60 mb-8 leading-relaxed max-w-md mx-auto lg:mx-0">
-                Masukkan email kamu, dan dalam hitungan menit kamu akan menerima
-                link Google Drive berisi materi belajar bahasa Inggris lengkap.
+                Enter your email and within minutes you&apos;ll receive a Google
+                Drive link with all the English learning materials.
               </p>
 
               {/* What you get */}
               <div className="space-y-4 max-w-sm mx-auto lg:mx-0">
                 <h3 className="font-bold text-foreground text-sm uppercase tracking-wider">
-                  Isi Google Drive:
+                  Inside the Google Drive:
                 </h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
@@ -119,7 +121,7 @@ export default function DaftarPage() {
                       🔤
                     </div>
                     <span className="text-foreground/70 text-sm">
-                      PPT Kosakata — bertema, visual, mudah dipahami
+                      Vocabulary PPT — themed, visual, easy to understand
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -127,7 +129,7 @@ export default function DaftarPage() {
                       📐
                     </div>
                     <span className="text-foreground/70 text-sm">
-                      PPT Grammar — penjelasan simpel untuk pemula
+                      Grammar PPT — simple explanations for beginners
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -135,7 +137,7 @@ export default function DaftarPage() {
                       🎬
                     </div>
                     <span className="text-foreground/70 text-sm">
-                      Video Pronunciation — cara ucap kata yang benar
+                      Pronunciation Videos — learn correct pronunciation
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -143,7 +145,7 @@ export default function DaftarPage() {
                       🗣️
                     </div>
                     <span className="text-foreground/70 text-sm">
-                      Video Kosakata Harian — kata sehari-hari + pengucapan
+                      Daily Vocabulary Videos — everyday words + pronunciation
                     </span>
                   </div>
                   <div className="flex items-center gap-3">
@@ -151,7 +153,7 @@ export default function DaftarPage() {
                       🎯
                     </div>
                     <span className="text-foreground/70 text-sm">
-                      PPT Quiz & Latihan — interaktif dan seru
+                      Quiz & Practice PPT — interactive and fun
                     </span>
                   </div>
                 </div>
@@ -175,7 +177,7 @@ export default function DaftarPage() {
                 </div>
                 <p className="text-sm text-foreground/50">
                   <span className="font-bold text-foreground">500+</span>{" "}
-                  keluarga sudah bergabung
+                  families already joined
                 </p>
               </div>
             </div>
@@ -190,7 +192,7 @@ export default function DaftarPage() {
         {/* Footer */}
         <footer className="py-6 px-4 text-center">
           <p className="text-sm text-foreground/40">
-            © 2025 GLOW English. Materi belajar bahasa Inggris untuk anak.
+            © 2025 GLOW English. English learning materials for kids.
           </p>
         </footer>
       </div>

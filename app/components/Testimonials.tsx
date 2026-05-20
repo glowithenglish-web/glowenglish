@@ -1,30 +1,30 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Ibu Sarah",
-      role: "Orang tua murid kelas 2 SD",
-      text: "PPT kosakatanya bagus banget, penuh gambar dan warna. Anak saya jadi hafal banyak kata baru dalam seminggu!",
+      name: "Sarah M.",
+      role: "Parent of a Grade 2 student",
+      text: "The vocabulary PPTs are amazing — full of pictures and colors. My child memorized so many new words in just one week!",
       rating: 5,
       avatar: "👩🏻",
     },
     {
-      name: "Pak David",
-      role: "Orang tua murid kelas 1 SD",
-      text: "Video pronunciation-nya sangat membantu. Anak saya sekarang bisa ngomong 'thank you' dan 'excuse me' dengan pengucapan yang benar.",
+      name: "David L.",
+      role: "Parent of a Grade 1 student",
+      text: "The pronunciation videos are incredibly helpful. My child can now say 'thank you' and 'excuse me' with proper pronunciation.",
       rating: 5,
       avatar: "👨🏽",
     },
     {
-      name: "Ibu Anita",
-      role: "Orang tua murid kelas 3 SD",
-      text: "Materinya lengkap — dari kosakata, grammar, sampai video. Tinggal buka Drive, pilih mau belajar apa. Praktis banget!",
+      name: "Anita R.",
+      role: "Parent of a Grade 3 student",
+      text: "The materials are complete — vocabulary, grammar, and videos. Just open the Drive, pick what to study. So practical!",
       rating: 5,
       avatar: "👩🏼",
     },
     {
-      name: "Pak Michael",
-      role: "Orang tua murid kelas 4 SD",
-      text: "PPT grammar-nya simpel tapi jelas. Anak saya yang tadinya bingung soal tenses, sekarang sudah mulai paham. Gratis pula!",
+      name: "Michael T.",
+      role: "Parent of a Grade 4 student",
+      text: "The grammar PPTs are simple yet clear. My child who used to struggle with tenses is now starting to understand. And it's free!",
       rating: 5,
       avatar: "👨🏻",
     },
@@ -48,20 +48,20 @@ export default function Testimonials() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <span className="inline-block text-sm font-semibold text-pink-dark bg-pink-light px-4 py-1.5 rounded-full mb-4">
-            Testimoni
+            Testimonials
           </span>
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-4"
             style={{ fontFamily: "var(--font-baloo)" }}
           >
-            Kata{" "}
+            What Parents{" "}
             <span className="bg-gradient-to-r from-pink-dark to-gold bg-clip-text text-transparent">
-              Orang Tua
+              Say
             </span>
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Ratusan orang tua sudah merasakan manfaat materi GLOW untuk
-            anak-anak mereka.
+            Hundreds of parents have seen the benefits of GLOW materials for
+            their children.
           </p>
         </div>
 
