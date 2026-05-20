@@ -58,12 +58,16 @@ export default function Programs() {
       className="py-20 md:py-28 bg-gradient-to-b from-warm-white to-beige-light relative overflow-hidden"
     >
       {/* Decorative elements */}
-      <div className="absolute top-10 left-10 text-2xl opacity-30 animate-float">
-        📖
-      </div>
-      <div className="absolute bottom-10 right-10 text-2xl opacity-30 animate-float-slow">
-        ✨
-      </div>
+      <div className="absolute top-10 left-10 text-2xl opacity-30 animate-float">📖</div>
+      <div className="absolute bottom-10 right-10 text-2xl opacity-30 animate-float-slow">✨</div>
+      <div className="absolute top-1/4 right-[5%] text-xl opacity-20 animate-bounce-gentle">🎯</div>
+      <div className="absolute bottom-1/4 left-[5%] text-xl opacity-20 animate-float">📚</div>
+      <div className="absolute top-[60%] right-[15%] text-lg opacity-15 animate-float-slow">🌈</div>
+
+      {/* Background blobs */}
+      <div className="absolute top-0 left-1/4 w-64 h-64 bg-pink-light/15 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-gold-light/20 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-0 w-48 h-48 bg-pastel-blue/10 rounded-full blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}

@@ -12,33 +12,43 @@ export const metadata: Metadata = {
 export default function DaftarPage() {
   return (
     <div className="min-h-screen relative overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-pink-light/50 via-warm-white to-gold-light/50" />
+      {/* Multi-layer background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-pink-light/60 via-warm-white to-gold-light/60" />
+
+      {/* Animated pulsing blobs */}
+      <div className="absolute top-[10%] left-[5%] w-72 h-72 bg-pink/15 rounded-full blur-3xl animate-pulse-soft" />
+      <div className="absolute bottom-[10%] right-[5%] w-80 h-80 bg-gold-light/30 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "1s" }} />
+      <div className="absolute top-[40%] right-[20%] w-56 h-56 bg-pastel-blue/15 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "2s" }} />
+      <div className="absolute top-[60%] left-[15%] w-64 h-64 bg-pastel-green/10 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "1.5s" }} />
+      <div className="absolute top-[20%] left-[40%] w-48 h-48 bg-pastel-purple/10 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "0.5s" }} />
+      <div className="absolute bottom-[30%] left-[50%] w-60 h-60 bg-pink-light/20 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "2.5s" }} />
+
+      {/* Dotted pattern overlay */}
+      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle, #e8a0b4 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
 
       {/* Decorative floating elements */}
-      <div className="absolute top-10 left-5 text-3xl animate-float opacity-40 hidden sm:block">
-        ⭐
-      </div>
-      <div className="absolute top-20 right-10 text-2xl animate-float-slow opacity-30 hidden sm:block">
-        📚
-      </div>
-      <div className="absolute bottom-20 left-10 text-3xl animate-bounce-gentle opacity-30 hidden sm:block">
-        🌈
-      </div>
-      <div className="absolute bottom-40 right-5 text-2xl animate-float opacity-30 hidden sm:block">
-        ✏️
-      </div>
-      <div className="absolute top-1/3 left-5 text-2xl animate-float-slow opacity-20 hidden lg:block">
-        🎬
-      </div>
-      <div className="absolute top-2/3 right-10 text-3xl animate-bounce-gentle opacity-20 hidden lg:block">
-        💡
-      </div>
+      <div className="absolute top-8 left-4 text-3xl animate-float opacity-50">⭐</div>
+      <div className="absolute top-16 right-8 text-2xl animate-float-slow opacity-40">📚</div>
+      <div className="absolute bottom-16 left-8 text-3xl animate-bounce-gentle opacity-40">🌈</div>
+      <div className="absolute bottom-32 right-4 text-2xl animate-float opacity-40">✏️</div>
+      <div className="absolute top-[25%] left-3 text-2xl animate-float-slow opacity-30">🎬</div>
+      <div className="absolute top-[65%] right-6 text-3xl animate-bounce-gentle opacity-30">💡</div>
+      <div className="absolute top-[45%] left-[3%] text-xl animate-float opacity-25">🎵</div>
+      <div className="absolute bottom-[45%] right-[3%] text-xl animate-float-slow opacity-25">🦋</div>
+      <div className="absolute top-[80%] left-[20%] text-2xl animate-bounce-gentle opacity-20">🌸</div>
+      <div className="absolute top-[10%] right-[30%] text-xl animate-float opacity-20">💫</div>
+      <div className="absolute bottom-[10%] left-[40%] text-2xl animate-float-slow opacity-25">🎈</div>
+      <div className="absolute top-[35%] right-[40%] text-xl animate-bounce-gentle opacity-20">📝</div>
 
-      {/* Soft blurred circles */}
-      <div className="absolute -top-32 -left-32 w-96 h-96 bg-pink/15 rounded-full blur-3xl" />
-      <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-gold-light/30 rounded-full blur-3xl" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-pastel-blue/10 rounded-full blur-3xl" />
+      {/* Large decorative circles */}
+      <div className="absolute -top-32 -left-32 w-96 h-96 bg-pink/10 rounded-full blur-3xl" />
+      <div className="absolute -bottom-32 -right-32 w-96 h-96 bg-gold-light/25 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pastel-blue/8 rounded-full blur-3xl" />
+
+      {/* Decorative shapes */}
+      <div className="absolute top-[15%] right-[10%] w-20 h-20 border-2 border-pink/20 rounded-2xl rotate-12 hidden lg:block" />
+      <div className="absolute bottom-[20%] left-[8%] w-16 h-16 border-2 border-gold/20 rounded-full hidden lg:block" />
+      <div className="absolute top-[70%] right-[15%] w-12 h-12 border-2 border-pastel-blue/20 rounded-xl -rotate-12 hidden lg:block" />
 
       {/* Content */}
       <div className="relative min-h-screen flex flex-col">
@@ -116,7 +126,7 @@ export default function DaftarPage() {
                   Inside the Google Drive:
                 </h3>
                 <div className="space-y-3">
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2.5 shadow-sm">
                     <div className="w-8 h-8 bg-pink-light rounded-lg flex items-center justify-center text-sm flex-shrink-0">
                       🔤
                     </div>
@@ -124,7 +134,7 @@ export default function DaftarPage() {
                       Vocabulary PPT — themed, visual, easy to understand
                     </span>
                   </div>
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2.5 shadow-sm">
                     <div className="w-8 h-8 bg-gold-light rounded-lg flex items-center justify-center text-sm flex-shrink-0">
                       📐
                     </div>
@@ -132,7 +142,7 @@ export default function DaftarPage() {
                       Grammar PPT — simple explanations for beginners
                     </span>
                   </div>
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2.5 shadow-sm">
                     <div className="w-8 h-8 bg-pastel-blue/50 rounded-lg flex items-center justify-center text-sm flex-shrink-0">
                       🎬
                     </div>
@@ -140,7 +150,7 @@ export default function DaftarPage() {
                       Pronunciation Videos — learn correct pronunciation
                     </span>
                   </div>
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2.5 shadow-sm">
                     <div className="w-8 h-8 bg-pastel-green/50 rounded-lg flex items-center justify-center text-sm flex-shrink-0">
                       🗣️
                     </div>
@@ -148,7 +158,7 @@ export default function DaftarPage() {
                       Daily Vocabulary Videos — everyday words + pronunciation
                     </span>
                   </div>
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-3 bg-white/50 backdrop-blur-sm rounded-xl px-4 py-2.5 shadow-sm">
                     <div className="w-8 h-8 bg-pastel-purple/50 rounded-lg flex items-center justify-center text-sm flex-shrink-0">
                       🎯
                     </div>

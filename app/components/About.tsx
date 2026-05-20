@@ -45,6 +45,16 @@ export default function About() {
       {/* Background decorations */}
       <div className="absolute top-0 right-0 w-72 h-72 bg-pink-light/30 rounded-full blur-3xl" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-gold-light/30 rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-pastel-purple/5 rounded-full blur-3xl" />
+
+      {/* Floating elements */}
+      <div className="absolute top-16 right-16 text-2xl opacity-20 animate-float">📖</div>
+      <div className="absolute bottom-16 left-16 text-2xl opacity-20 animate-float-slow">✨</div>
+      <div className="absolute top-1/3 left-8 text-xl opacity-15 animate-bounce-gentle">🌟</div>
+      <div className="absolute bottom-1/3 right-8 text-xl opacity-15 animate-float">💡</div>
+
+      {/* Dot pattern */}
+      <div className="absolute inset-0 opacity-[0.02]" style={{ backgroundImage: "radial-gradient(circle, #e8a0b4 1px, transparent 1px)", backgroundSize: "40px 40px" }} />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}

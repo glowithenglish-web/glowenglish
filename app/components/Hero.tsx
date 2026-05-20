@@ -6,28 +6,31 @@ export default function Hero() {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-pink-light via-warm-white to-gold-light" />
 
+      {/* Animated background shapes */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
+        <div className="absolute top-[10%] left-[5%] w-64 h-64 bg-pink/10 rounded-full blur-2xl animate-pulse-soft" />
+        <div className="absolute top-[60%] right-[5%] w-80 h-80 bg-gold-light/30 rounded-full blur-2xl animate-pulse-soft" style={{ animationDelay: "1s" }} />
+        <div className="absolute top-[30%] right-[20%] w-48 h-48 bg-pastel-blue/15 rounded-full blur-2xl animate-pulse-soft" style={{ animationDelay: "2s" }} />
+        <div className="absolute bottom-[20%] left-[15%] w-56 h-56 bg-pastel-green/10 rounded-full blur-2xl animate-pulse-soft" style={{ animationDelay: "1.5s" }} />
+        <div className="absolute top-[50%] left-[40%] w-72 h-72 bg-pastel-purple/8 rounded-full blur-3xl animate-pulse-soft" style={{ animationDelay: "0.5s" }} />
+      </div>
+
       {/* Floating decorative elements */}
-      <div className="absolute top-20 left-10 text-4xl animate-float opacity-60">
-        ⭐
-      </div>
-      <div className="absolute top-40 right-20 text-3xl animate-float-slow opacity-50">
-        📚
-      </div>
-      <div className="absolute bottom-40 left-20 text-3xl animate-float opacity-40">
-        🌟
-      </div>
-      <div className="absolute top-60 left-1/4 text-2xl animate-bounce-gentle opacity-40">
-        ✏️
-      </div>
-      <div className="absolute bottom-60 right-1/4 text-3xl animate-float-slow opacity-50">
-        🎨
-      </div>
-      <div className="absolute top-32 right-1/3 text-2xl animate-float opacity-30">
-        💬
-      </div>
-      <div className="absolute bottom-32 left-1/3 text-4xl animate-bounce-gentle opacity-40">
-        🌈
-      </div>
+      <div className="absolute top-16 left-6 text-4xl animate-float opacity-60">⭐</div>
+      <div className="absolute top-28 right-12 text-3xl animate-float-slow opacity-50">📚</div>
+      <div className="absolute bottom-36 left-12 text-3xl animate-float opacity-40">🌟</div>
+      <div className="absolute top-48 left-[20%] text-2xl animate-bounce-gentle opacity-40">✏️</div>
+      <div className="absolute bottom-48 right-[20%] text-3xl animate-float-slow opacity-50">🎨</div>
+      <div className="absolute top-24 right-[30%] text-2xl animate-float opacity-30">💬</div>
+      <div className="absolute bottom-24 left-[30%] text-4xl animate-bounce-gentle opacity-40">🌈</div>
+      <div className="absolute top-[45%] left-[8%] text-2xl animate-float-slow opacity-30">🎵</div>
+      <div className="absolute top-[70%] right-[8%] text-2xl animate-float opacity-35">🦋</div>
+      <div className="absolute top-[15%] left-[45%] text-xl animate-bounce-gentle opacity-25">💫</div>
+      <div className="absolute bottom-[15%] right-[35%] text-2xl animate-float-slow opacity-30">🎈</div>
+      <div className="absolute top-[80%] left-[50%] text-xl animate-float opacity-25">🌸</div>
+
+      {/* Dotted pattern overlay */}
+      <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle, #e8a0b4 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
 
       {/* Soft circle decorations */}
       <div className="absolute -top-20 -right-20 w-80 h-80 bg-pink/20 rounded-full blur-3xl" />

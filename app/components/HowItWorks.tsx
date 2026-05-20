@@ -35,6 +35,14 @@ export default function HowItWorks() {
       <div className="absolute inset-0 bg-gradient-to-b from-beige-light to-warm-white" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-pink-light/10 rounded-full blur-3xl" />
 
+      {/* Extra decorations */}
+      <div className="absolute top-10 left-[10%] text-2xl opacity-20 animate-float">📝</div>
+      <div className="absolute bottom-10 right-[10%] text-2xl opacity-20 animate-float-slow">🎉</div>
+      <div className="absolute top-1/3 right-[8%] text-xl opacity-15 animate-bounce-gentle">📩</div>
+      <div className="absolute bottom-1/3 left-[8%] text-xl opacity-15 animate-float">🚀</div>
+      <div className="absolute top-[20%] left-[30%] w-40 h-40 bg-pastel-green/10 rounded-full blur-2xl" />
+      <div className="absolute bottom-[20%] right-[30%] w-48 h-48 bg-gold-light/15 rounded-full blur-2xl" />
+
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
