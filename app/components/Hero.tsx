@@ -86,21 +86,14 @@ export default function Hero() {
 
             {/* Trust indicators */}
             <div className="mt-10 flex items-center gap-6 justify-center lg:justify-start">
-              <div className="flex -space-x-2">
-                <div className="w-8 h-8 rounded-full bg-pink flex items-center justify-center text-xs border-2 border-white">
-                  😊
-                </div>
-                <div className="w-8 h-8 rounded-full bg-pastel-blue flex items-center justify-center text-xs border-2 border-white">
-                  🥰
-                </div>
-                <div className="w-8 h-8 rounded-full bg-gold-light flex items-center justify-center text-xs border-2 border-white">
-                  😄
-                </div>
+              <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
+                <span className="text-lg">🆓</span>
+                <span className="text-sm text-foreground/60 font-medium">Free forever</span>
               </div>
-              <p className="text-sm text-foreground/60">
-                <span className="font-bold text-foreground">500+</span> parents
-                already joined
-              </p>
+              <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
+                <span className="text-lg">⚡</span>
+                <span className="text-sm text-foreground/60 font-medium">Instant access</span>
+              </div>
             </div>
           </div>
 

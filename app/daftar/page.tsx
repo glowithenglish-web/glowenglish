@@ -170,25 +170,19 @@ export default function DaftarPage() {
               </div>
 
               {/* Social proof */}
-              <div className="mt-8 flex items-center gap-4 justify-center lg:justify-start">
-                <div className="flex -space-x-2">
-                  <div className="w-8 h-8 rounded-full bg-pink flex items-center justify-center text-xs border-2 border-white">
-                    😊
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-pastel-blue flex items-center justify-center text-xs border-2 border-white">
-                    🥰
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-gold-light flex items-center justify-center text-xs border-2 border-white">
-                    😄
-                  </div>
-                  <div className="w-8 h-8 rounded-full bg-pastel-green flex items-center justify-center text-xs border-2 border-white">
-                    🤩
-                  </div>
+              <div className="mt-8 flex flex-wrap items-center gap-3 justify-center lg:justify-start">
+                <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
+                  <span className="text-base">🆓</span>
+                  <span className="text-xs text-foreground/60 font-medium">Free forever</span>
                 </div>
-                <p className="text-sm text-foreground/50">
-                  <span className="font-bold text-foreground">500+</span>{" "}
-                  families already joined
-                </p>
+                <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
+                  <span className="text-base">⚡</span>
+                  <span className="text-xs text-foreground/60 font-medium">Instant delivery</span>
+                </div>
+                <div className="flex items-center gap-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full shadow-sm">
+                  <span className="text-base">🔒</span>
+                  <span className="text-xs text-foreground/60 font-medium">No spam</span>
+                </div>
               </div>
             </div>
 
@@ -200,9 +194,16 @@ export default function DaftarPage() {
         </main>
 
         {/* Footer */}
-        <footer className="py-6 px-4 text-center">
-          <p className="text-sm text-foreground/40">
-            © 2025 GLOW English. English learning materials for kids.
+        <footer className="py-8 px-4 text-center space-y-4">
+          <div className="max-w-md mx-auto bg-white/60 backdrop-blur-sm rounded-2xl px-6 py-5 border border-pink-light/30 shadow-sm">
+            <span className="text-2xl block mb-2">💬</span>
+            <p className="text-base text-foreground/70 italic font-medium leading-relaxed">
+              &ldquo;The limits of my language mean the limits of my world.&rdquo;
+            </p>
+            <p className="text-sm text-pink-dark font-semibold mt-2">— Ludwig Wittgenstein</p>
+          </div>
+          <p className="text-xs text-foreground/30">
+            © 2026 GLOW English. English learning materials for kids.
           </p>
         </footer>
       </div>

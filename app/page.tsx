@@ -4,7 +4,9 @@ import BrandBanner from "./components/BrandBanner";
 import About from "./components/About";
 import Stats from "./components/Stats";
 import Programs from "./components/Programs";
+import WhatYouGet from "./components/WhatYouGet";
 import HowItWorks from "./components/HowItWorks";
+import ForWhom from "./components/ForWhom";
 import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
@@ -21,7 +23,9 @@ export default function Home() {
         <About />
         <Stats />
         <Programs />
+        <WhatYouGet />
         <HowItWorks />
+        <ForWhom />
         <Gallery />
         <Testimonials />
         <FAQ />

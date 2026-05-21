@@ -98,7 +98,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-foreground/60">
                 <span>📧</span>
-                <span>hello@glowenglish.com</span>
+                <span>glowithenglish@gmail.com</span>
               </li>
               <li className="flex items-center gap-2 text-foreground/60">
                 <span>📱</span>
@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-pink-light/30 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-foreground/40">
-            © 2025 GLOW English. All rights reserved.
+            © 2026 GLOW English. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-foreground/40">
             <a href="#" className="hover:text-pink-dark transition-colors">

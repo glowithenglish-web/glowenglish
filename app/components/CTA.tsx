@@ -66,7 +66,7 @@ export default function CTA() {
               <span className="text-lg">⚡</span> Instant delivery
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-lg">💝</span> 500+ families joined
+              <span className="text-lg">📂</span> 10+ materials inside
             </span>
           </div>
         </div>

@@ -1,9 +1,9 @@
 export default function Stats() {
   const stats = [
-    { number: "500+", label: "Happy Families", emoji: "👨‍👩‍👧" },
-    { number: "50+", label: "Learning Materials", emoji: "📂" },
+    { number: "10+", label: "Learning Materials", emoji: "📂" },
+    { number: "5+", label: "Video Lessons", emoji: "🎬" },
+    { number: "200+", label: "Vocabulary Words", emoji: "🔤" },
     { number: "100%", label: "Free Access", emoji: "🆓" },
-    { number: "4", label: "Grade Levels", emoji: "🎓" },
   ];
 
   return (
